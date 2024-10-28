@@ -1,0 +1,39 @@
+body,
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	text-align: center;
+}
+
+.box {
+	margin: 100px auto;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+.dot {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background-color: black;
+	border-radius: 50%;
+}
+
+.A {
+	top: 0;
+	left: 250px;
+}
+
+.B {
+	top: 500px;
+	left: 0;
+}
+
+.C {
+	top: 500px;
+	left: 500px;
+}
